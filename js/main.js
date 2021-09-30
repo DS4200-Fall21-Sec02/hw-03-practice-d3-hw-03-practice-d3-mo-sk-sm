@@ -82,7 +82,7 @@ let svg2 = d3.select('#vis2')
   .attr('viewBox', [0, 0, width + margin.left + margin.right, height + margin.top + margin.bottom].join(' '))
 
 // Parse the Data
-d3.csv("https://github.com/DS4200-Fall21-Sec02/hw-03-practice-d3-hw-03-practice-d3-mo-sk-sm/blob/main/data/barchart.csv", function(data) {
+d3.csv("https://github.com/DS4200-Fall21-Sec02/hw-03-practice-d3-hw-03-practice-d3-mo-sk-sm/blob/main/data/scatterplot.csv", function(data) {
 
   // List of subgroups = header of the csv files = soil condition here
   var subgroups = data.columns.slice(1)
