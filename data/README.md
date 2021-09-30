@@ -1,7 +1,9 @@
 # Put any data files in this folder
 
-Ideally your data is a CSV file.
-https://www.bls.gov/tus/charts/chart8.txt
-
-*Do not commit personally identifying or confidential data!*
-If you do so, it is a pain to remove it later and it may have already been crawled by other sources. But [here is how you do so](https://help.github.com/en/github/authenticating-to-github/removing-sensitive-data-from-a-repository).
+group,employed, not employed
+Educational,5.5,6.5
+Work and related,1.5,0
+Sleeping,8.6,8.9
+Socializing, relaxing, and leisure,3.1,3.6
+Sports, exercise, and recreation,0.6,0.8
+Religious, spiritual, and volunteer,0.2,0.2
